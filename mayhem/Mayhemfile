@@ -1,0 +1,6 @@
+project: YamlSwift
+target: fuzz-yaml-swift
+
+cmds:
+  - cmd: /release/YamlFuzz
+    libfuzzer: true
